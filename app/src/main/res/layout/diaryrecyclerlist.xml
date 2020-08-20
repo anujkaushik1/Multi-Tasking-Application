@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#282828"
+    >
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="110dp"
+        android:orientation="vertical"
+      >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/cornerrounder2"
+            android:id="@+id/diaryrecyclerdate"
+            android:textColor="#000000"
+            android:text="nskjka"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/cornerrounder1"
+            android:id="@+id/diaryrecyclertitle"
+            android:text="msmjjdjdjkd"
+            android:textColor="#000000"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:id="@+id/diaryrecyclerdescription"
+            android:text="msmjjdjdjkd"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:background="@drawable/cornerrounder"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

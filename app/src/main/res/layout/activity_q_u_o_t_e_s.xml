@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QUOTES"
+    android:background="#000000">
+    
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/quotesrecyclerview"
+        android:layout_width="410dp"
+        android:layout_height="526dp"
+        android:layout_marginTop="130dp"
+
+
+        android:background="#000000" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="658dp"
+        android:background="#000000"
+        android:layout_marginLeft="-4dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="68dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:text="Diary"
+            android:id="@+id/tododiary3"
+            android:textColor="#F4B10C"
+            android:textSize="25dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="-72dp"
+            android:id="@+id/tododirayimage3"
+            android:src="@drawable/tabbeddiary"/>
+        <TextView
+            android:layout_width="68dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="56dp"
+            android:text="News"
+            android:id="@+id/todonews3"
+            android:textColor="#F4B10C"
+            android:textSize="25dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="-72dp"
+            android:id="@+id/todonewsimage3"
+            android:src="@drawable/tabbednews"/>
+
+        <TextView
+            android:layout_width="68dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="55dp"
+            android:text="Quotes"
+            android:id="@+id/todoquote3"
+            android:textColor="#F4B10C"
+            android:textSize="25dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="-65dp"
+            android:id="@+id/todoquoteimage3"
+            android:src="@drawable/tabbedquote"/>
+        <TextView
+            android:layout_width="68dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="41dp"
+            android:text="Tasks"
+            android:id="@+id/todotasks3"
+            android:textColor="#F4B10C"
+            android:textSize="25dp"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="-65dp"
+            android:id="@+id/todotodoimage3"
+            android:src="@drawable/tabbedtodo"/>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

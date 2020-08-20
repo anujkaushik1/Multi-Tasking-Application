@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+
+        android:layout_marginTop="50dp"
+        android:textSize="22dp"
+        android:text="hejjwjej"
+        android:layout_marginLeft="20dp"
+        android:textColor="#FFCC00"
+        android:background="#383838"
+        android:id="@+id/completedtextview2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="3dp"
+        android:background="#FFCC00"
+        android:text="hejjwjej"
+        android:textColor="#FFCC00"
+        android:textSize="22dp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="27dp"
+        android:text="njsjsj"
+        android:textSize="23dp"
+        android:textColor="#FFFF"
+        android:background="#383838"
+        android:id="@+id/completedtextview1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="95dp"
+        android:text="jdkjk"
+        android:textSize="17dp"
+        android:background="#383838"
+        android:id="@+id/completedtextview"
+        android:textColor="#FFFF"/>
+
+    <TextView
+        android:layout_width="93dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="-42dp"
+        android:background="#383838"
+
+        android:textColor="#FFFF"
+        android:text="Deadline :"
+        android:textSize="17dp"
+        android:id="@+id/deadline1"
+        />
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/newsiv"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="62dp"
+        tools:srcCompat="@tools:sample/avatars"
+        android:layout_marginTop="50dp"
+
+        />
+
+    <TextView
+        android:id="@+id/newstv"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="260dp"
+        android:text="hwjhjjkwjjwjkwjkjjwjjklwkl"
+        android:textColor="#FFFF"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="335dp"
+        android:background="#F4B10C"/>
+
+</RelativeLayout>
+
